@@ -20,14 +20,15 @@
 
 #nav {
   padding: 30px;
+  background-color: #F2DAC4;
 }
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #184059;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #F26B83;
 }
 </style>
