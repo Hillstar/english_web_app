@@ -22,13 +22,8 @@ Vue.use(VueRouter)
     path: '/quizPage',
     name: 'QuizPage',
     component: () => import(/* webpackChunkName: "quiz" */ '../views/QuizPage.vue')
-  },
-  {
-    path: '/mapworld',
-    name: 'Mapworld',
-    component: () => import(/* webpackChunkName: "mapworld" */ '../views/Mapworld.vue')
   }
-  ]
+]
 
 const router = new VueRouter({
   routes
