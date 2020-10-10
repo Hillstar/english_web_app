@@ -1,6 +1,7 @@
 <template>
   <div class="mapworld">
-      <h1>Discover and enjoy while AnnaSophia is alive</h1>
+      <h1>Discover and enjoy while AnnaSophia is alive(please)</h1>
+      <h1>Discover and enjoy</h1>
       <div class="city-tera">
           <img @click="levelChoose(1)"
           :style="{marginLeft:'-12%',marginTop:'10%',height:'75px',position:'absolute'}" 
